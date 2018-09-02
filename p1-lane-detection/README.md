@@ -17,6 +17,8 @@ The flow fo the Lane detection project is as follows:
    ![Hough lines](./writeup_data/03-hough-lines.jpg)
  * ### Extrapolation of hough lines to left and right lanes
    ![Lane lines](./writeup_data/04-lane-output.jpg)
+ * ### Final output
+   ![Output](./writeup_data/05-output.jpg)
 ---
 The draw_lines() function was extended to draw the left and right lanes. This was done by the following approach:
  * Remove the outliers in the Hough lines output by using mean and 2*standard deviation of the line slopes.
